@@ -3,20 +3,6 @@ using System.Collections.Generic;
 
 namespace ThreeSum {
   internal class Program {
-    internal static void PrintArray<T>(T[] arr) {
-      for(int i = 0; i < arr.Length; i++) {
-        Console.Write(arr[i].ToString());
-        if(i + 1 < arr.Length) { Console.Write(", "); } else { Console.WriteLine(); }
-      }
-    }
-
-    internal static void PrintList<T>(List<T> arr) {
-      for(int i = 0; i < arr.Count; i++) {
-        Console.Write(arr[i].ToString());
-        if(i + 1 < arr.Count) { Console.Write(", "); } else { Console.WriteLine(); }
-      }
-    }
-
     private static void PrintSolutionResult(IList<IList<int>> result) {
       foreach(IList<int> list in result) {
         for(int i = 0; i < list.Count; i++) {

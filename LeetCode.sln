@@ -4,14 +4,36 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse Integer", "Reverse Integer\Reverse Integer.csproj", "{BCA05A44-0745-4254-92FE-2E333149DED6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{457CDB07-78FF-4633-B661-59CC1EE6C934} = {457CDB07-78FF-4633-B661-59CC1EE6C934}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forming A Magic Square", "Forming A Magic Square\Forming A Magic Square.csproj", "{CC2390F4-501B-40FE-9AEE-3F3894F02D8B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{457CDB07-78FF-4633-B661-59CC1EE6C934} = {457CDB07-78FF-4633-B661-59CC1EE6C934}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeSum", "ThreeSum\ThreeSum.csproj", "{49042B74-F446-4E09-ADEF-1871D2DDACE7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{457CDB07-78FF-4633-B661-59CC1EE6C934} = {457CDB07-78FF-4633-B661-59CC1EE6C934}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse Words in a String III", "Reverse Words in a String III\Reverse Words in a String III.csproj", "{05F1BA22-FCE2-477F-BC26-AC61249807FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{457CDB07-78FF-4633-B661-59CC1EE6C934} = {457CDB07-78FF-4633-B661-59CC1EE6C934}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jewels and Stones", "Jewels and Stones\Jewels and Stones.csproj", "{4E5D6A07-F6CF-41EC-BA63-6E8EC53FBB3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jewels and Stones", "Jewels and Stones\Jewels and Stones.csproj", "{4E5D6A07-F6CF-41EC-BA63-6E8EC53FBB3D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{457CDB07-78FF-4633-B661-59CC1EE6C934} = {457CDB07-78FF-4633-B661-59CC1EE6C934}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two Sum", "Two Sum\Two Sum.csproj", "{6528CAAE-260D-49A6-9AC8-CFD7197B2EBA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{457CDB07-78FF-4633-B661-59CC1EE6C934} = {457CDB07-78FF-4633-B661-59CC1EE6C934}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{457CDB07-78FF-4633-B661-59CC1EE6C934}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +61,14 @@ Global
 		{4E5D6A07-F6CF-41EC-BA63-6E8EC53FBB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E5D6A07-F6CF-41EC-BA63-6E8EC53FBB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E5D6A07-F6CF-41EC-BA63-6E8EC53FBB3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6528CAAE-260D-49A6-9AC8-CFD7197B2EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6528CAAE-260D-49A6-9AC8-CFD7197B2EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6528CAAE-260D-49A6-9AC8-CFD7197B2EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6528CAAE-260D-49A6-9AC8-CFD7197B2EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{457CDB07-78FF-4633-B661-59CC1EE6C934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{457CDB07-78FF-4633-B661-59CC1EE6C934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{457CDB07-78FF-4633-B661-59CC1EE6C934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{457CDB07-78FF-4633-B661-59CC1EE6C934}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
