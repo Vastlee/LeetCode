@@ -7,7 +7,6 @@ namespace ThreeSum
     internal class Solution {
     public IList<IList<int>> ThreeSum(int[] nums) {
       IList<IList<int>> result = new List<IList<int>>();
-      List<int> zeroSumList;
       Array.Sort(nums);
 
       for(int i = 0; i < nums.Length - 2; i++) {
