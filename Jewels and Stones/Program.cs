@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace Jewels_and_Stones {
-  internal class Program {
+  internal static class Program {
     private static void Main(string[] args) {
       string jewels = "aA";
       string stones = "aAAbbbb";

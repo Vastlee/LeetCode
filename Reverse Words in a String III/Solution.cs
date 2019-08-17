@@ -10,7 +10,6 @@ namespace Reverse_Words_in_a_String_III {
       return "";
     }
 
-    static void Main(string[] args) => Console.WriteLine(ReverseWords("Hello World!"));
+    private static void Main(string[] args) => Console.WriteLine(ReverseWords("Hello World!"));
   }
 }
-

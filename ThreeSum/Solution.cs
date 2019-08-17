@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ThreeSum
-{
-
-    internal class Solution {
+namespace ThreeSum {
+  internal class Solution {
     public IList<IList<int>> ThreeSum(int[] nums) {
       IList<IList<int>> result = new List<IList<int>>();
       Array.Sort(nums);

@@ -1,9 +1,7 @@
 ﻿using System;
 
 namespace Forming_A_Magic_Square {
-
-  internal class Program {
-
+  internal static class Program {
     private static void Main(string[] args) {
       Console.WriteLine(new Solution().NumMagicSquaresInside(
         new int[][] {

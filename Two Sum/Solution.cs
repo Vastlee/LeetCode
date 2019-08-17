@@ -1,9 +1,7 @@
 ﻿using System.Collections.Generic;
 
 namespace Two_Sum {
-
   internal class Solution {
-
     public int[] TwoSum(int[] nums, int target) {
       var indices = new Dictionary<int, int>();
       int[] result;

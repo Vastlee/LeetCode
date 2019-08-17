@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Forming_A_Magic_Square {
   internal class Solution {
@@ -35,7 +34,7 @@ namespace Forming_A_Magic_Square {
           if(foundNums.Contains(square[i][i2])
             || square[i][i2] < 1
             || square[i][i2] > 9) {
-              return false;
+            return false;
           } else {
             foundNums.Add(square[i][i2]);
           }
