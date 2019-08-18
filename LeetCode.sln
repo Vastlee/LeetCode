@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two Sum", "Two Sum\Two Sum.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VastTools", "..\VastTools\VastTools.csproj", "{58506EDB-EF8C-47A9-9AB5-33A8DA4FC21F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delete Node in a Linked List", "Delete Node in a Linked List\Delete Node in a Linked List.csproj", "{EE51CE37-B139-4D7C-997D-15F51F7A671F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{58506EDB-EF8C-47A9-9AB5-33A8DA4FC21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58506EDB-EF8C-47A9-9AB5-33A8DA4FC21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58506EDB-EF8C-47A9-9AB5-33A8DA4FC21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE51CE37-B139-4D7C-997D-15F51F7A671F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE51CE37-B139-4D7C-997D-15F51F7A671F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE51CE37-B139-4D7C-997D-15F51F7A671F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE51CE37-B139-4D7C-997D-15F51F7A671F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
