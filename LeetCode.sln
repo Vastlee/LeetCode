@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VastTools", "..\VastTools\V
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delete Node in a Linked List", "Delete Node in a Linked List\Delete Node in a Linked List.csproj", "{EE51CE37-B139-4D7C-997D-15F51F7A671F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum Depth of Binary Tree", "Maximum Depth of Binary Tree\Maximum Depth of Binary Tree.csproj", "{2C66EABF-7BE9-4327-B792-695E63DF3637}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{EE51CE37-B139-4D7C-997D-15F51F7A671F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE51CE37-B139-4D7C-997D-15F51F7A671F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE51CE37-B139-4D7C-997D-15F51F7A671F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C66EABF-7BE9-4327-B792-695E63DF3637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C66EABF-7BE9-4327-B792-695E63DF3637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C66EABF-7BE9-4327-B792-695E63DF3637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C66EABF-7BE9-4327-B792-695E63DF3637}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
