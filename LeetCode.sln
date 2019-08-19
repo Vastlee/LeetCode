@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two Sum", "Two Sum\Two Sum.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VastTools", "..\VastTools\VastTools.csproj", "{58506EDB-EF8C-47A9-9AB5-33A8DA4FC21F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delete Node in a Linked List", "Delete Node in a Linked List\Delete Node in a Linked List.csproj", "{EE51CE37-B139-4D7C-997D-15F51F7A671F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delete Node in a Linked List", "Delete Node in a Linked List\Delete Node in a Linked List.csproj", "{EE51CE37-B139-4D7C-997D-15F51F7A671F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum Depth of Binary Tree", "Maximum Depth of Binary Tree\Maximum Depth of Binary Tree.csproj", "{2C66EABF-7BE9-4327-B792-695E63DF3637}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximum Depth of Binary Tree", "Maximum Depth of Binary Tree\Maximum Depth of Binary Tree.csproj", "{2C66EABF-7BE9-4327-B792-695E63DF3637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge Sorted Array", "Merge Sorted Array\Merge Sorted Array.csproj", "{F344BDFC-EE5C-4681-A972-0F26533BD8C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{2C66EABF-7BE9-4327-B792-695E63DF3637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C66EABF-7BE9-4327-B792-695E63DF3637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C66EABF-7BE9-4327-B792-695E63DF3637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F344BDFC-EE5C-4681-A972-0F26533BD8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F344BDFC-EE5C-4681-A972-0F26533BD8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F344BDFC-EE5C-4681-A972-0F26533BD8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F344BDFC-EE5C-4681-A972-0F26533BD8C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
