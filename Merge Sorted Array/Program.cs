@@ -1,5 +1,4 @@
-﻿using System;
-using VastTools;
+﻿using VastTools;
 
 namespace Merge_Sorted_Array {
   internal static class Program {

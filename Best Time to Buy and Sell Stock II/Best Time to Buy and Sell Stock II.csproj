@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,4 +6,7 @@
     <RootNamespace>Best_Time_to_Buy_and_Sell_Stock_II</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\VastTools\VastTools.csproj" />
+  </ItemGroup>
 </Project>

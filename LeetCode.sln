@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merge Sorted Array", "Merge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotate Array", "Rotate Array\Rotate Array.csproj", "{918D177F-164B-4FFE-A0F8-9C0C1B00F31F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Best Time to Buy and Sell Stock II", "Best Time to Buy and Sell Stock II\Best Time to Buy and Sell Stock II.csproj", "{EFE5E6CB-AB80-4471-881E-18FF60C00C76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{918D177F-164B-4FFE-A0F8-9C0C1B00F31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{918D177F-164B-4FFE-A0F8-9C0C1B00F31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{918D177F-164B-4FFE-A0F8-9C0C1B00F31F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE5E6CB-AB80-4471-881E-18FF60C00C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE5E6CB-AB80-4471-881E-18FF60C00C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE5E6CB-AB80-4471-881E-18FF60C00C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE5E6CB-AB80-4471-881E-18FF60C00C76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,4 @@
 ﻿using System;
-using Maximum_Depth_of_Binary_Tree;
 
 namespace Maximum_Depth_of_Binary_Tree {
   internal static class Program {
