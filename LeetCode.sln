@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Best Time to Buy and Sell S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contains Duplicate", "Contains Duplicate\Contains Duplicate.csproj", "{947559EB-C9B7-4E28-91C2-BF4DE1C1D3F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Single Number", "Single Number\Single Number.csproj", "{21A1F014-3254-4A78-AE17-1748E39AB35F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{947559EB-C9B7-4E28-91C2-BF4DE1C1D3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{947559EB-C9B7-4E28-91C2-BF4DE1C1D3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{947559EB-C9B7-4E28-91C2-BF4DE1C1D3F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A1F014-3254-4A78-AE17-1748E39AB35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A1F014-3254-4A78-AE17-1748E39AB35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A1F014-3254-4A78-AE17-1748E39AB35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A1F014-3254-4A78-AE17-1748E39AB35F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
