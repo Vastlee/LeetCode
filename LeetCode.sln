@@ -35,7 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intersection of Two Arrays 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plus One", "Plus One\Plus One.csproj", "{AE692A3D-4B9B-41DD-B694-D5AE64AA8502}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Move Zeroes", "Move Zeroes\Move Zeroes.csproj", "{7A26F03C-C900-401E-B9B0-7D08569EBBB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Move Zeroes", "Move Zeroes\Move Zeroes.csproj", "{7A26F03C-C900-401E-B9B0-7D08569EBBB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Sudoku", "Valid Sudoku\Valid Sudoku.csproj", "{16ABB679-E136-4683-B378-D0D16EDF3567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotate Image", "Rotate Image\Rotate Image.csproj", "{59A22FF2-DA4D-43C5-939A-F1838B10A40F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +115,14 @@ Global
 		{7A26F03C-C900-401E-B9B0-7D08569EBBB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A26F03C-C900-401E-B9B0-7D08569EBBB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A26F03C-C900-401E-B9B0-7D08569EBBB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16ABB679-E136-4683-B378-D0D16EDF3567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16ABB679-E136-4683-B378-D0D16EDF3567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16ABB679-E136-4683-B378-D0D16EDF3567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16ABB679-E136-4683-B378-D0D16EDF3567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A22FF2-DA4D-43C5-939A-F1838B10A40F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A22FF2-DA4D-43C5-939A-F1838B10A40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A22FF2-DA4D-43C5-939A-F1838B10A40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A22FF2-DA4D-43C5-939A-F1838B10A40F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
