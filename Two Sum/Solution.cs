@@ -1,29 +1,22 @@
 ﻿using System.Collections.Generic;
 
 namespace Two_Sum {
-  internal class Solution {
+  public class Solution {
     public int[] TwoSum(int[] nums, int target) {
-      var indices = new Dictionary<int, int>();
-      int[] result;
-      int resultIndex = 0;
+      var used = new Dictionary<int, int>();
 
-      for(int i = 0; i < nums.Length - 1; i++) {
-        for(int i2 = i + 1; i2 < nums.Length; i2++) {
-          if(nums[i] + nums[i2] == target) {
-            if(!(indices.ContainsKey(i) && indices[i] != i2)) {
-              indices.Add(i, i2);
-            }
-          }
+      for(int i = 0; i < nums.Length; i++) {
+        var targetLeft = target - nums[i];
+        if(used.ContainsKey(targetLeft) && used[targetLeft] != i) {
+          return new int[] { used[targetLeft], i };
+        } else if(used.ContainsKey(nums[i])) {
+          used[nums[i]] = i;
+        } else {
+          used.Add(nums[i], i);
         }
       }
 
-      result = new int[indices.Keys.Count * 2];
-      foreach(KeyValuePair<int, int> kvp in indices) {
-        result[resultIndex++] = kvp.Key;
-        result[resultIndex++] = kvp.Value;
-      }
-
-      return result;
+      return new int[] { };
     }
   }
 }
