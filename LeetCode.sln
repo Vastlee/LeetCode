@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Single Number", "Single Num
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intersection of Two Arrays II", "Intersection of Two Arrays II\Intersection of Two Arrays II.csproj", "{C4F040FE-5CEC-49B9-9638-8351C295D623}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plus One", "Plus One\Plus One.csproj", "{AE692A3D-4B9B-41DD-B694-D5AE64AA8502}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plus One", "Plus One\Plus One.csproj", "{AE692A3D-4B9B-41DD-B694-D5AE64AA8502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Move Zeroes", "Move Zeroes\Move Zeroes.csproj", "{7A26F03C-C900-401E-B9B0-7D08569EBBB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{AE692A3D-4B9B-41DD-B694-D5AE64AA8502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE692A3D-4B9B-41DD-B694-D5AE64AA8502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE692A3D-4B9B-41DD-B694-D5AE64AA8502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A26F03C-C900-401E-B9B0-7D08569EBBB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A26F03C-C900-401E-B9B0-7D08569EBBB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A26F03C-C900-401E-B9B0-7D08569EBBB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A26F03C-C900-401E-B9B0-7D08569EBBB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
