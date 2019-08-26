@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Text;
-using VastTools;
 
 namespace Valid_Sudoku {
   internal class Solution {

@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valid Sudoku", "Valid Sudok
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotate Image", "Rotate Image\Rotate Image.csproj", "{59A22FF2-DA4D-43C5-939A-F1838B10A40F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First Unique Character in a String", "First Unique Character in a String\First Unique Character in a String.csproj", "{BCB50C52-8BEF-42ED-AC1A-1D7D49691733}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First Unique Character in a String", "First Unique Character in a String\First Unique Character in a String.csproj", "{BCB50C52-8BEF-42ED-AC1A-1D7D49691733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Palindrome", "Valid Palindrome\Valid Palindrome.csproj", "{ED16061C-655F-4458-AE13-E23270AD5595}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{BCB50C52-8BEF-42ED-AC1A-1D7D49691733}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCB50C52-8BEF-42ED-AC1A-1D7D49691733}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCB50C52-8BEF-42ED-AC1A-1D7D49691733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED16061C-655F-4458-AE13-E23270AD5595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED16061C-655F-4458-AE13-E23270AD5595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED16061C-655F-4458-AE13-E23270AD5595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED16061C-655F-4458-AE13-E23270AD5595}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

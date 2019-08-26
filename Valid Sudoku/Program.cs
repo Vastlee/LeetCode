@@ -1,5 +1,4 @@
 ﻿using System;
-using VastTools;
 
 namespace Valid_Sudoku {
   internal static class Program {
