@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotate Image", "Rotate Imag
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First Unique Character in a String", "First Unique Character in a String\First Unique Character in a String.csproj", "{BCB50C52-8BEF-42ED-AC1A-1D7D49691733}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Palindrome", "Valid Palindrome\Valid Palindrome.csproj", "{ED16061C-655F-4458-AE13-E23270AD5595}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valid Palindrome", "Valid Palindrome\Valid Palindrome.csproj", "{ED16061C-655F-4458-AE13-E23270AD5595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String to Integer (atoi)", "String to Integer (atoi)\String to Integer (atoi).csproj", "{5A959211-CF94-4C00-B67E-34D61916FA9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{ED16061C-655F-4458-AE13-E23270AD5595}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED16061C-655F-4458-AE13-E23270AD5595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED16061C-655F-4458-AE13-E23270AD5595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A959211-CF94-4C00-B67E-34D61916FA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A959211-CF94-4C00-B67E-34D61916FA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A959211-CF94-4C00-B67E-34D61916FA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A959211-CF94-4C00-B67E-34D61916FA9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
