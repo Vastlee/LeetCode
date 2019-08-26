@@ -9,7 +9,12 @@ namespace String_to_Integer__atoi_ {
         "   -42",
         "4193 with words",
         "words and 987",
-        "-91283472332"
+        "-91283472332",
+        "991283472332",
+        "",
+        " ",
+        "-",
+        "+1"
       };
 
       foreach(string s in input) {
