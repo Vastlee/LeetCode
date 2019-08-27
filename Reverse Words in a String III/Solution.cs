@@ -1,15 +1,35 @@
-﻿using System;
-using System.Linq;
+﻿namespace Reverse_Words_in_a_String_III {
+  internal class Solution {
+    internal string ReverseWords(string s) {
+      char[] result = new char[s.Length];
+      int wordStartIndex;
+      bool spaceBreak = true;
 
-namespace Reverse_Words_in_a_String_III {
-  internal static class Solution {
-    internal static string ReverseWords(string s) {
-      foreach(var r in s.Split(" ").Reverse().Aggregate((x, y) => x + " " + y)) {
-        Console.WriteLine(r);
+      wordStartIndex = 0;
+      for(int i = 0; i < result.Length; i++) {
+        if(spaceBreak) {
+          wordStartIndex = i;
+          spaceBreak = false;
+        }
+
+        if(s[i] == ' ') {
+          ReverseToFrom(result, ref s, wordStartIndex, i - 1);
+          result[i] = ' ';
+          spaceBreak = true;
+        }
+
+        if(i == result.Length - 1) {
+          ReverseToFrom(result, ref s, wordStartIndex, i);
+        }
       }
-      return "";
+
+      return new string(result);
     }
 
-    private static void Main(string[] args) => Console.WriteLine(ReverseWords("Hello World!"));
+    private void ReverseToFrom(char[] arr, ref string s, int start, int end) {
+      for(int i = start, i2 = end; i <= end; i++, i2--) {
+        arr[i] = s[i2];
+      }
+    }
   }
 }
