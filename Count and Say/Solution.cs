@@ -1,30 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Count_and_Say {
   internal class Solution {
     public string CountAndSay(int n) {
-      List<int> nums = new List<int>() { 1 };
+      List<int> conv;
+      var nums = new List<int>() { 1 };
 
-      for(int i = 0; i < n; i++) {
-        for(int i2 = 0; i2 < nums.Count; i++) {
+      int seqCount;
+      for(int i = 1; i < n; i++) {
+        conv = new List<int>();
+        for(int i2 = 0; i2 < nums.Count; i2 += seqCount) {
+          seqCount = SequenceCount(ref nums, i2);
+          conv.Add(seqCount);
+          conv.Add(nums[i2]);
         }
+        nums = conv;
       }
 
-      return string.Empty;
+      return string.Join(",", nums).Replace(",", string.Empty);
     }
 
-    private (int Count, int EndIndex) SequenceCount(ref List<int> nums, int startIndex) {
+    private int SequenceCount(ref List<int> nums, int startIndex) {
       int result = 1;
-      int endIndex = startIndex;
 
       for(int i = startIndex + 1; i < nums.Count; i++) {
         if(nums[i] == nums[startIndex]) {
           result++;
-          endIndex = i;
+        } else {
+          break;
         }
       }
-      return (result, endIndex);
+      return result;
     }
   }
 }
