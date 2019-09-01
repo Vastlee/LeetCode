@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace Longest_Common_Prefix {
-  internal class Program {
+  internal static class Program {
     private static void Main(string[] args) {
       var solve = new Solution();
       string[][] inputs = {

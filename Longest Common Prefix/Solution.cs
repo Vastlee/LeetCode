@@ -7,13 +7,15 @@ namespace Longest_Common_Prefix {
   internal class Solution {
     public string LongestCommonPrefix(string[] strs) {
       if(strs == null || strs.Length < 1) { return string.Empty; }
-      string result = string.Empty;
+      var result = new StringBuilder();
 
-      foreach(var item in strs.OrderBy(x => x).ToArray()) {
-        Console.Write($"{item}, ");
+      var skip = new HashSet<int>();
+      int longest = strs.OrderBy(x => x.Length).First().Length;
+
+      for(int i = 0; i < longest; i++) {
       }
 
-      return result;
+      return result.ToString();
     }
   }
 }
