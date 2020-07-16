@@ -57,7 +57,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remove Nth Node From End of
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Longest Common Prefix", "Longest Common Prefix\Longest Common Prefix.csproj", "{E42F563B-B5B3-4250-9AB0-EC6EB51B1AF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulls and Cows", "Bulls and Cows\Bulls and Cows.csproj", "{9DD83F6F-A8B8-485C-9F73-B345B9DED65D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bulls and Cows", "Bulls and Cows\Bulls and Cows.csproj", "{9DD83F6F-A8B8-485C-9F73-B345B9DED65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse Linked List", "Reverse Linked List\Reverse Linked List.csproj", "{7B8B826E-26B6-4F4D-85FE-6FC19ABAAC65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{9DD83F6F-A8B8-485C-9F73-B345B9DED65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DD83F6F-A8B8-485C-9F73-B345B9DED65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DD83F6F-A8B8-485C-9F73-B345B9DED65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B8B826E-26B6-4F4D-85FE-6FC19ABAAC65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8B826E-26B6-4F4D-85FE-6FC19ABAAC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8B826E-26B6-4F4D-85FE-6FC19ABAAC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8B826E-26B6-4F4D-85FE-6FC19ABAAC65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
