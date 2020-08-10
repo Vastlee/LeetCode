@@ -1,4 +1,6 @@
-﻿namespace Delete_Node_in_a_Linked_List {
+﻿using LeetCodeHelper;
+
+namespace Delete_Node_in_a_Linked_List {
   internal static class Program {
     private static void Main(string[] args) {
       ListNode head = new ListNode(4);

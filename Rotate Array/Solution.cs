@@ -1,20 +1,24 @@
-﻿namespace Rotate_Array {
-  internal class Solution {
-    public void Rotate(int[] nums, int k) {
-      if(k < 1) { return; }
+﻿using System.Text;
+using VastTools;
 
-      int len = nums.Length;
-      var tmp = new int[len];
+namespace Rotate_Array {
+    internal class Solution {
+        public void Rotate(int[] nums, int k) {
 
-      for(int i = 0; i < len; i++) {
-        tmp[(i + k) % len] = nums[i];
-      }
+            if(k < 1) { return; }
 
-      for(int i = 0; i < len; i++) {
-        nums[i] = tmp[i];
-      }
-    }
-  }
+            int len = nums.Length;
+            var tmp = new int[len];
+
+            for(int i = 0; i < len; i++) {
+                tmp[(i + k) % len] = nums[i];
+            }
+
+            for(int i = 0; i < len; i++) {
+                nums[i] = tmp[i];
+            }
+        }
+    }    
 }
 
 /*  Recursion Solve. Time is too long.
