@@ -63,7 +63,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse Linked List", "Reve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merge Two Sorted Lists", "Merge Two Sorted Lists\Merge Two Sorted Lists.csproj", "{8576800F-B2E5-4B86-A42B-840F39A42275}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeHelper", "LeetCodeHelper\LeetCodeHelper.csproj", "{E89369DA-D716-46FC-92B4-12D7F99EA772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodeHelper", "LeetCodeHelper\LeetCodeHelper.csproj", "{E89369DA-D716-46FC-92B4-12D7F99EA772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome Linked List", "Palindrome Linked List\Palindrome Linked List.csproj", "{5DC89DA3-C5DA-402C-BD4C-FDCFCD1A6055}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,10 @@ Global
 		{E89369DA-D716-46FC-92B4-12D7F99EA772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E89369DA-D716-46FC-92B4-12D7F99EA772}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E89369DA-D716-46FC-92B4-12D7F99EA772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DC89DA3-C5DA-402C-BD4C-FDCFCD1A6055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC89DA3-C5DA-402C-BD4C-FDCFCD1A6055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC89DA3-C5DA-402C-BD4C-FDCFCD1A6055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC89DA3-C5DA-402C-BD4C-FDCFCD1A6055}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
