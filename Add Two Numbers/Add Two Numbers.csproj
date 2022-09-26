@@ -1,14 +1,15 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
+    <RootNamespace>Add_Two_Numbers</RootNamespace>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <RootNamespace>Best_Time_to_Buy_and_Sell_Stock_II</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\VastTools\VastTools.csproj" />
+    <ProjectReference Include="..\LeetCodeHelper\LeetCodeHelper.csproj" />
   </ItemGroup>
+
 </Project>

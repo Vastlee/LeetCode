@@ -1,16 +1,14 @@
 ﻿using System;
 using LeetCodeHelper;
 
-namespace Maximum_Depth_of_Binary_Tree {
-  internal static class Program {
-    private static void Main(string[] args) {
-      var head = new TreeNode(1);
-      head.left = new TreeNode(2);
-      head.right = new TreeNode(3);
-      head.right.right = new TreeNode(4);
-      head.right.right.right = new TreeNode(5);
+namespace Maximum_Depth_of_Binary_Tree;
 
-      Console.WriteLine(new Solution().MaxDepth(head));
+internal static class Program {
+    private static void Main(string[] args) {
+        var t1 = Helper.AddLeaves(new int[] { 3, 1, 2, 5, 4 });
+        var toList = Helper.TreeToList(t1);
+        foreach(var node in toList) {
+            Console.WriteLine($"{node.Value}, ");
+        }
     }
-  }
 }

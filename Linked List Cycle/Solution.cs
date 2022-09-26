@@ -9,7 +9,7 @@ namespace Linked_List_Cycle {
             while(head != null) {
                 if(map.Contains(head)) { return true; }
                 map.Add(head);
-                head = head.next;
+                head = head.Next;
             }
 
             return false;

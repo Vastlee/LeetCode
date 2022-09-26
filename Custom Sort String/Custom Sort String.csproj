@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>Implement_strStr__</RootNamespace>
+    <RootNamespace>Custom_Sort_String</RootNamespace>
   </PropertyGroup>
 
 </Project>

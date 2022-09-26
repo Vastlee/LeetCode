@@ -14,7 +14,7 @@ public class Solution {
     public void RemoveNth(ref ListNode head, int n) {
         if(head == null) { return; }
         if(n == 1) {
-            head = head.next;
+            head = head.Next;
             return;
         }
 
@@ -23,10 +23,10 @@ public class Solution {
 
         for(int i = 1; i < n; i++) {
             last = current;
-            current = current.next;
+            current = current.Next;
         }
 
-        last.next = current.next;
+        last.Next = current.Next;
     }
 
     private int ListLength(ListNode head) {
@@ -34,7 +34,7 @@ public class Solution {
         ListNode current = head;
         while(current != null) {
             result++;
-            current = current.next;
+            current = current.Next;
         }
         return result;
     }

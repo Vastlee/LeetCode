@@ -3,14 +3,14 @@
 namespace Palindrome_Linked_List {
     internal class Solution {
         public bool IsPalindrome(ListNode head) {
-            if(head == null || head.next == null) { return true; }
+            if(head == null || head.Next == null) { return true; }
 
             ListNode reversed = Reverse(head);
 
             while(head != null) {
-                if(head.val != reversed.val) { return false; }
-                head = head.next;
-                reversed = reversed.next;
+                if(head.Value != reversed.Value) { return false; }
+                head = head.Next;
+                reversed = reversed.Next;
             }
 
             return true;
@@ -22,9 +22,9 @@ namespace Palindrome_Linked_List {
 
             while(head != null) {
                 previous = reversed;
-                reversed = new ListNode(head.val);
-                reversed.next = previous;
-                head = head.next;
+                reversed = new ListNode(head.Value);
+                reversed.Next = previous;
+                head = head.Next;
             }
 
             return reversed;

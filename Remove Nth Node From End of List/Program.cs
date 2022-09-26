@@ -11,9 +11,9 @@ internal static class Program {
         current = new ListNode(1);
         head = current;
 
-        for(int i = current.val + 1; i < 10; i++) {
-            current.next = new ListNode(i);
-            current = current.next;
+        for(int i = current.Value + 1; i < 10; i++) {
+            current.Next = new ListNode(i);
+            current = current.Next;
         }
 
         Log(head);
@@ -27,11 +27,11 @@ internal static class Program {
         ListNode current = head;
         string delimiter = ", ";
         while(current != null) {
-            Console.Write($"{current.val}");
-            if(current.next != null) {
+            Console.Write($"{current.Value}");
+            if(current.Next != null) {
                 Console.Write($"{delimiter}");
             }
-            current = current.next;
+            current = current.Next;
         }
         Console.WriteLine();
     }
@@ -41,7 +41,7 @@ internal static class Program {
         ListNode current = head;
         while(current != null) {
             result++;
-            current = current.next;
+            current = current.Next;
         }
         return result;
     }
