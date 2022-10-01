@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode", "LeetCode.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VastTools", "..\VastTools\VastTools.csproj", "{539E03B9-8CFE-4AD1-89C4-B6F99E677769}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeTests", "LeetCodeTests\LeetCodeTests.csproj", "{B045D60B-B409-46FD-8EC9-5783F17137BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{539E03B9-8CFE-4AD1-89C4-B6F99E677769}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{539E03B9-8CFE-4AD1-89C4-B6F99E677769}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{539E03B9-8CFE-4AD1-89C4-B6F99E677769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B045D60B-B409-46FD-8EC9-5783F17137BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B045D60B-B409-46FD-8EC9-5783F17137BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B045D60B-B409-46FD-8EC9-5783F17137BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B045D60B-B409-46FD-8EC9-5783F17137BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
